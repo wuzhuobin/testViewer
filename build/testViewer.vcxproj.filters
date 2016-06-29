@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\main.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\moc_mainviewer.cpp">
+      <Filter>GENERATED</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\qrc_mainviewer.cpp">
+      <Filter>GENERATED</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkProcessor.cpp" />
+    <ClCompile Include="MaxiumWallThickness.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.h">
+      <Filter>HEAD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.h">
+      <Filter>HEAD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\build\ui_mainviewer.h">
+      <Filter>GENERATED</Filter>
+    </ClInclude>
+    <ClInclude Include="vtkProcessor.h" />
+    <ClInclude Include="MaxiumWallThickness.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.ui">
+      <Filter>FORM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.qrc">
+      <Filter>SOURCE</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jieji\Desktop\ccode\testViewer\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\fab8ee13911ec08c57d35f7963434d56\moc_mainviewer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A1E26D3F-71A3-3CC5-B38C-29E9EE93D5E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GENERATED">
+      <UniqueIdentifier>{42A92F8B-1C80-38DD-ACB3-8A51A5527C3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FORM">
+      <UniqueIdentifier>{50837BCB-23E3-30A8-9E4F-BB3990017D91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HEAD">
+      <UniqueIdentifier>{4DD8D2DD-66FD-370B-834A-EB6EFC92DF23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE">
+      <UniqueIdentifier>{D70A79F9-4405-3945-9044-B30B17F7FFF7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
