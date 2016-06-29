@@ -12,6 +12,8 @@
 #include <vtkImageExtractComponents.h>
 #include <vtkImageMathematics.h>
 
+#include <utility>
+#include <math.h>
 #include <list>
 #include <iostream>
 
@@ -49,7 +51,7 @@ public:
 	};
 
 
-	EdgePoint centers[EDGENUM];
+	EdgePoint* centers[EDGENUM];
 	std::list<EdgePoint>* edgePoints[EDGENUM];
 
 };

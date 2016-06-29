@@ -21,6 +21,8 @@ int main(int argc, char *argv[])
 			m.extractVOI();
 			m.thresholdImage();
 			m.edgeDetection();
+			m.thicknessCal();
+
 			w.visualizeImage(m.edgeImage[1]);
 
 			return a.exec();
