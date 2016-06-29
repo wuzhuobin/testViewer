@@ -26,16 +26,14 @@ QString MainViewer::getFileName()
 	return this->fileName;
 }
 
-vtkSmartPointer<vtkImageData> MainViewer::loadFile()
+vtkSmartPointer<vtkImageData> MainViewer::loadNIFTIFile()
 {
 	vtkSmartPointer<vtkNIFTIImageReader> reader;
 	reader = vtkSmartPointer<vtkNIFTIImageReader>::New();
 	qDebug() << fileName.toLatin1().data();
 	reader->SetFileName(fileName.toLatin1().data());
 	reader->Update();
-	vtkSmartPointer<vtkImageData> img =
-		vtkSmartPointer<vtkImageData>::New();
-	img->DeepCopy(reader->GetOutput());
+	vtkSmartPointer<vtkImageData> img = reader->GetOutput();
 	return img;
 
 }

@@ -17,7 +17,7 @@
       <Filter>GENERATED</Filter>
     </ClCompile>
     <ClCompile Include="vtkProcessor.cpp" />
-    <ClCompile Include="MaxiumWallThickness.cpp" />
+    <ClCompile Include="MaximumWallThickness.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.h">
@@ -30,7 +30,7 @@
       <Filter>GENERATED</Filter>
     </ClInclude>
     <ClInclude Include="vtkProcessor.h" />
-    <ClInclude Include="MaxiumWallThickness.h" />
+    <ClInclude Include="MaximumWallThickness.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.ui">

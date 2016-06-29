@@ -507,7 +507,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MaxiumWallThickness.cpp" />
+    <ClCompile Include="MaximumWallThickness.cpp" />
     <ClCompile Include="vtkProcessor.cpp" />
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.h" />
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.h" />
@@ -517,7 +517,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\main.cpp" />
     <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\moc_mainviewer.cpp" />
     <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\qrc_mainviewer.cpp" />
-    <ClInclude Include="MaxiumWallThickness.h" />
+    <ClInclude Include="MaximumWallThickness.h" />
     <ClInclude Include="vtkProcessor.h" />
   </ItemGroup>
   <ItemGroup>

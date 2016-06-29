@@ -1,4 +1,5 @@
 #include "mainviewer.h"
+#include "MaximumWallThickness.h"
 
 #include <QtWidgets/QApplication>
 
@@ -13,10 +14,13 @@ int main(int argc, char *argv[])
 
 		if (w.setFileName(argv[1])) {
 			w.show();
-			//MainViewer w1;
-			//w1.show();
-			w.setFileName(argv[1]);
-			//w1.setFileName(argv[1]);
+			MaximumWallThickness m(w.loadNIFTIFile());
+			int extent[6] = {255,511,127,383,0,55};
+			m.setExtent(extent);
+			m.valueTransform();
+			m.extractVOI();
+			m.thresholdImage();
+			w.visualizeImage(m.edgeImage[1]);
 
 			return a.exec();
 		}

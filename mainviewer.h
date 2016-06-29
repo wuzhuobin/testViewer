@@ -17,10 +17,6 @@
 #include <vtkActor.h>
 #include <vtkRenderer.h>
 
-#include <itkImageFileReader.h>
-#include <itkSmartPointer.h>
-#include <itkImage.h>
-#include <itkImageToVTKImageFilter.h>
 
 #include "vtkProcessor.h"
 #include "myVtkInteractorStyleImage.h"
@@ -36,7 +32,7 @@ public:
 
 	bool setFileName(QString fileName);
 	QString getFileName();
-	vtkSmartPointer<vtkImageData> loadFile();
+	vtkSmartPointer<vtkImageData> loadNIFTIFile();
 	bool visualizeImage(vtkImageData* img);
 	bool visualizePolyData(vtkPolyData* data);
 
