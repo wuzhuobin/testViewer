@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
 			m.valueTransform();
 			m.extractVOI();
 			m.thresholdImage();
+			m.edgeDetection();
 			w.visualizeImage(m.edgeImage[1]);
 
 			return a.exec();

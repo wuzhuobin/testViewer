@@ -8,9 +8,14 @@
 #include <vtkImageTHreshold.h>
 #include <vtkExtractVOI.h>
 #include <vtkThreshold.h>
+#include <vtkImageSobel2D.h>
+#include <vtkImageExtractComponents.h>
+#include <vtkImageMathematics.h>
+
+#include <list>
+#include <iostream>
 
 
-struct edgePoint;
 
 class MaximumWallThickness
 {
@@ -25,6 +30,7 @@ public:
 	bool extractVOI();
 	bool thresholdImage();
 	bool edgeDetection();
+	bool thicknessCal();
 	bool setExtent(int* extent);
 	const int* getExtent();
 
@@ -37,10 +43,14 @@ public:
 	int edgeValue[EDGENUM];
 	int* extent;
 
+	struct EdgePoint {
+		double x = 0;
+		double y = 0;
+	};
+
+
+	EdgePoint centers[EDGENUM];
+	std::list<EdgePoint>* edgePoints[EDGENUM];
+
 };
 
-struct edgePoint {
-	int x = 0;
-	int y = 0;
-
-};
