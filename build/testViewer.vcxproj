@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -56,33 +56,33 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testViewer.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testViewer</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testViewer.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testViewer</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testViewer.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testViewer</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testViewer.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testViewer</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
-  </PropertyGroup>
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testViewer.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testViewer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testViewer.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testViewer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testViewer.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testViewer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jieji\Desktop\ccode\testViewer\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testViewer.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testViewer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
@@ -122,8 +122,7 @@
       <ImportLibrary>C:/Users/jieji/Desktop/ccode/testViewer/build/Debug/testViewer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/jieji/Desktop/ccode/testViewer/build/Debug/testViewer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -144,8 +143,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -168,8 +166,7 @@
       <ImportLibrary>C:/Users/jieji/Desktop/ccode/testViewer/build/Release/testViewer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/jieji/Desktop/ccode/testViewer/build/Release/testViewer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -190,8 +187,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -214,8 +210,7 @@
       <ImportLibrary>C:/Users/jieji/Desktop/ccode/testViewer/build/MinSizeRel/testViewer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/jieji/Desktop/ccode/testViewer/build/MinSizeRel/testViewer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -259,8 +254,7 @@
       <ImportLibrary>C:/Users/jieji/Desktop/ccode/testViewer/build/RelWithDebInfo/testViewer.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/jieji/Desktop/ccode/testViewer/build/RelWithDebInfo/testViewer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -507,18 +501,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MaximumWallThickness.cpp" />
-    <ClCompile Include="vtkProcessor.cpp" />
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.h" />
+    <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\MaximumWallThickness.h" />
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.h" />
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\build\ui_mainviewer.h" />
-    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.cpp" />
-    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.cpp" />
-    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\main.cpp" />
-    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\moc_mainviewer.cpp" />
-    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\qrc_mainviewer.cpp" />
-    <ClInclude Include="MaximumWallThickness.h" />
-    <ClInclude Include="vtkProcessor.h" />
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.cpp"  />
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\MaximumWallThickness.cpp"  />
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.cpp"  />
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\main.cpp"  />
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\moc_mainviewer.cpp"  />
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\qrc_mainviewer.cpp"  />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/jieji/Desktop/ccode/testViewer/build/ZERO_CHECK.vcxproj">

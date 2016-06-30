@@ -1,7 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\MaximumWallThickness.cpp">
       <Filter>SOURCE</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.cpp">
@@ -16,11 +19,12 @@
     <ClCompile Include="C:\Users\jieji\Desktop\ccode\testViewer\build\qrc_mainviewer.cpp">
       <Filter>GENERATED</Filter>
     </ClCompile>
-    <ClCompile Include="vtkProcessor.cpp" />
-    <ClCompile Include="MaximumWallThickness.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.h">
+      <Filter>HEAD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\MaximumWallThickness.h">
       <Filter>HEAD</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\myVtkInteractorStyleImage.h">
@@ -29,8 +33,6 @@
     <ClInclude Include="C:\Users\jieji\Desktop\ccode\testViewer\build\ui_mainviewer.h">
       <Filter>GENERATED</Filter>
     </ClInclude>
-    <ClInclude Include="vtkProcessor.h" />
-    <ClInclude Include="MaximumWallThickness.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\jieji\Desktop\ccode\testViewer\mainviewer.ui">

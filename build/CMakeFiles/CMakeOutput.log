@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) 生成引擎版本 14.0.25123.0
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2016/6/27 11:40:36。
+生成启动时间为 2016/6/30 12:08:53。
 节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\3.5.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
 PrepareForBuild:
   正在创建目录“Debug\”。
@@ -35,7 +35,7 @@ FinalizeBuildStatus:
     0 个警告
     0 个错误
 
-已用时间 00:00:00.60
+已用时间 00:00:00.56
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) 生成引擎版本 14.0.25123.0
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2016/6/27 11:40:37。
+生成启动时间为 2016/6/30 12:08:54。
 节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\3.5.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
 PrepareForBuild:
   正在创建目录“Debug\”。
@@ -80,7 +80,7 @@ FinalizeBuildStatus:
     0 个警告
     0 个错误
 
-已用时间 00:00:00.54
+已用时间 00:00:00.55
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,112 +92,34 @@ The CXX compiler identification is MSVC, found in "C:/Users/jieji/Desktop/ccode/
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5f97b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3a307.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25123.0
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2016/6/27 11:40:38。
-节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_5f97b.vcxproj”(默认目标)。
+生成启动时间为 2016/6/30 12:08:55。
+节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_3a307.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_5f97b.dir\Debug\”。
+  正在创建目录“cmTC_3a307.dir\Debug\”。
   正在创建目录“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_5f97b.dir\Debug\cmTC_5f97b.tlog\”。
+  正在创建目录“cmTC_3a307.dir\Debug\cmTC_3a307.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_5f97b.dir\Debug\cmTC_5f97b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_3a307.dir\Debug\cmTC_3a307.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f97b.dir\Debug\\" /Fd"cmTC_5f97b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a307.dir\Debug\\" /Fd"cmTC_3a307.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCCompiler.c
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23918 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f97b.dir\Debug\\" /Fd"cmTC_5f97b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a307.dir\Debug\\" /Fd"cmTC_3a307.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCCompiler.c
   
   testCCompiler.c
 Link:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_5f97b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_5f97b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_5f97b.lib" /MACHINE:X64  /machine:x64 cmTC_5f97b.dir\Debug\testCCompiler.obj
-  cmTC_5f97b.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_5f97b.exe
-  cmTC_5f97b.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_5f97b.pdb (Full PDB)
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_3a307.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_3a307.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_3a307.lib" /MACHINE:X64  /machine:x64 cmTC_3a307.dir\Debug\testCCompiler.obj
+  cmTC_3a307.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_3a307.exe
+  cmTC_3a307.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_3a307.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_5f97b.dir\Debug\cmTC_5f97b.tlog\unsuccessfulbuild”。
-  正在对“cmTC_5f97b.dir\Debug\cmTC_5f97b.tlog\cmTC_5f97b.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_5f97b.vcxproj”(默认目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:00.56
-
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_539d2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) 生成引擎版本 14.0.25123.0
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-生成启动时间为 2016/6/27 11:40:39。
-节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_539d2.vcxproj”(默认目标)。
-PrepareForBuild:
-  正在创建目录“cmTC_539d2.dir\Debug\”。
-  正在创建目录“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_539d2.dir\Debug\cmTC_539d2.tlog\”。
-InitializeBuildStatus:
-  正在创建“cmTC_539d2.dir\Debug\cmTC_539d2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-ClCompile:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_539d2.dir\Debug\\" /Fd"cmTC_539d2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
-  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23918 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_539d2.dir\Debug\\" /Fd"cmTC_539d2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
-  
-  CMakeCCompilerABI.c
-Link:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_539d2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_539d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_539d2.lib" /MACHINE:X64  /machine:x64 cmTC_539d2.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_539d2.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_539d2.exe
-  cmTC_539d2.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_539d2.pdb (Full PDB)
-FinalizeBuildStatus:
-  正在删除文件“cmTC_539d2.dir\Debug\cmTC_539d2.tlog\unsuccessfulbuild”。
-  正在对“cmTC_539d2.dir\Debug\cmTC_539d2.tlog\cmTC_539d2.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_539d2.vcxproj”(默认目标)的操作。
-
-已成功生成。
-    0 个警告
-    0 个错误
-
-已用时间 00:00:00.68
-
-
-Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_66f2c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
-Microsoft (R) 生成引擎版本 14.0.25123.0
-版权所有(C) Microsoft Corporation。保留所有权利。
-
-生成启动时间为 2016/6/27 11:40:40。
-节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_66f2c.vcxproj”(默认目标)。
-PrepareForBuild:
-  正在创建目录“cmTC_66f2c.dir\Debug\”。
-  正在创建目录“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_66f2c.dir\Debug\cmTC_66f2c.tlog\”。
-InitializeBuildStatus:
-  正在创建“cmTC_66f2c.dir\Debug\cmTC_66f2c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-ClCompile:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_66f2c.dir\Debug\\" /Fd"cmTC_66f2c.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23918 版
-  版权所有(C) Microsoft Corporation。保留所有权利。
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_66f2c.dir\Debug\\" /Fd"cmTC_66f2c.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-  
-  testCXXCompiler.cxx
-Link:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_66f2c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_66f2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_66f2c.lib" /MACHINE:X64  /machine:x64 cmTC_66f2c.dir\Debug\testCXXCompiler.obj
-  cmTC_66f2c.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_66f2c.exe
-  cmTC_66f2c.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_66f2c.pdb (Full PDB)
-FinalizeBuildStatus:
-  正在删除文件“cmTC_66f2c.dir\Debug\cmTC_66f2c.tlog\unsuccessfulbuild”。
-  正在对“cmTC_66f2c.dir\Debug\cmTC_66f2c.tlog\cmTC_66f2c.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_66f2c.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_3a307.dir\Debug\cmTC_3a307.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3a307.dir\Debug\cmTC_3a307.tlog\cmTC_3a307.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_3a307.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
@@ -206,43 +128,121 @@ FinalizeBuildStatus:
 已用时间 00:00:00.57
 
 
-Detecting CXX compiler ABI info compiled with the following output:
+Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_94328.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fdb73.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25123.0
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2016/6/27 11:40:41。
-节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_94328.vcxproj”(默认目标)。
+生成启动时间为 2016/6/30 12:08:56。
+节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_fdb73.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_94328.dir\Debug\”。
+  正在创建目录“cmTC_fdb73.dir\Debug\”。
   正在创建目录“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_94328.dir\Debug\cmTC_94328.tlog\”。
+  正在创建目录“cmTC_fdb73.dir\Debug\cmTC_fdb73.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_94328.dir\Debug\cmTC_94328.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_fdb73.dir\Debug\cmTC_fdb73.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_94328.dir\Debug\\" /Fd"cmTC_94328.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fdb73.dir\Debug\\" /Fd"cmTC_fdb73.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23918 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_94328.dir\Debug\\" /Fd"cmTC_94328.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fdb73.dir\Debug\\" /Fd"cmTC_fdb73.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
   
-  CMakeCXXCompilerABI.cpp
+  CMakeCCompilerABI.c
 Link:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_94328.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_94328.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_94328.lib" /MACHINE:X64  /machine:x64 cmTC_94328.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_94328.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_94328.exe
-  cmTC_94328.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_94328.pdb (Full PDB)
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_fdb73.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fdb73.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fdb73.lib" /MACHINE:X64  /machine:x64 cmTC_fdb73.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_fdb73.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_fdb73.exe
+  cmTC_fdb73.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fdb73.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_94328.dir\Debug\cmTC_94328.tlog\unsuccessfulbuild”。
-  正在对“cmTC_94328.dir\Debug\cmTC_94328.tlog\cmTC_94328.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_94328.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_fdb73.dir\Debug\cmTC_fdb73.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fdb73.dir\Debug\cmTC_fdb73.tlog\cmTC_fdb73.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_fdb73.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.56
+已用时间 00:00:00.61
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bf9f0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25123.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/6/30 12:08:57。
+节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_bf9f0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bf9f0.dir\Debug\”。
+  正在创建目录“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bf9f0.dir\Debug\cmTC_bf9f0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bf9f0.dir\Debug\cmTC_bf9f0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf9f0.dir\Debug\\" /Fd"cmTC_bf9f0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23918 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf9f0.dir\Debug\\" /Fd"cmTC_bf9f0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_bf9f0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_bf9f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_bf9f0.lib" /MACHINE:X64  /machine:x64 cmTC_bf9f0.dir\Debug\testCXXCompiler.obj
+  cmTC_bf9f0.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_bf9f0.exe
+  cmTC_bf9f0.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_bf9f0.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_bf9f0.dir\Debug\cmTC_bf9f0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_bf9f0.dir\Debug\cmTC_bf9f0.tlog\cmTC_bf9f0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_bf9f0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.58
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a188f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25123.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/6/30 12:08:58。
+节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_a188f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a188f.dir\Debug\”。
+  正在创建目录“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a188f.dir\Debug\cmTC_a188f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a188f.dir\Debug\cmTC_a188f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a188f.dir\Debug\\" /Fd"cmTC_a188f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23918 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a188f.dir\Debug\\" /Fd"cmTC_a188f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "D:\cmake-3.5.2-win32-x86\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_a188f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_a188f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_a188f.lib" /MACHINE:X64  /machine:x64 cmTC_a188f.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_a188f.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_a188f.exe
+  cmTC_a188f.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_a188f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a188f.dir\Debug\cmTC_a188f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a188f.dir\Debug\cmTC_a188f.tlog\cmTC_a188f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_a188f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.60
 
 
 
@@ -250,40 +250,40 @@ FinalizeBuildStatus:
 Detecting CXX [] compiler features compiled with the following output:
 Change Dir: C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fc46a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_19fad.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) 生成引擎版本 14.0.25123.0
 版权所有(C) Microsoft Corporation。保留所有权利。
 
-生成启动时间为 2016/6/27 11:40:42。
-节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_fc46a.vcxproj”(默认目标)。
+生成启动时间为 2016/6/30 12:08:59。
+节点 1 上的项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_19fad.vcxproj”(默认目标)。
 PrepareForBuild:
-  正在创建目录“cmTC_fc46a.dir\Debug\”。
+  正在创建目录“cmTC_19fad.dir\Debug\”。
   正在创建目录“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\”。
-  正在创建目录“cmTC_fc46a.dir\Debug\cmTC_fc46a.tlog\”。
+  正在创建目录“cmTC_19fad.dir\Debug\cmTC_19fad.tlog\”。
 InitializeBuildStatus:
-  正在创建“cmTC_fc46a.dir\Debug\cmTC_fc46a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+  正在创建“cmTC_19fad.dir\Debug\cmTC_19fad.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
 ClCompile:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fc46a.dir\Debug\\" /Fd"cmTC_fc46a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\feature_tests.cxx
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_19fad.dir\Debug\\" /Fd"cmTC_19fad.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\feature_tests.cxx
   用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23918 版
   版权所有(C) Microsoft Corporation。保留所有权利。
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fc46a.dir\Debug\\" /Fd"cmTC_fc46a.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\feature_tests.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_19fad.dir\Debug\\" /Fd"cmTC_19fad.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\feature_tests.cxx
   
   feature_tests.cxx
 Link:
-  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc46a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc46a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc46a.lib" /MACHINE:X64  /machine:x64 cmTC_fc46a.dir\Debug\feature_tests.obj
-  cmTC_fc46a.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_fc46a.exe
-  cmTC_fc46a.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_fc46a.pdb (Full PDB)
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_19fad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_19fad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_19fad.lib" /MACHINE:X64  /machine:x64 cmTC_19fad.dir\Debug\feature_tests.obj
+  cmTC_19fad.vcxproj -> C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\Debug\cmTC_19fad.exe
+  cmTC_19fad.vcxproj -> C:/Users/jieji/Desktop/ccode/testViewer/build/CMakeFiles/CMakeTmp/Debug/cmTC_19fad.pdb (Full PDB)
 FinalizeBuildStatus:
-  正在删除文件“cmTC_fc46a.dir\Debug\cmTC_fc46a.tlog\unsuccessfulbuild”。
-  正在对“cmTC_fc46a.dir\Debug\cmTC_fc46a.tlog\cmTC_fc46a.lastbuildstate”执行 Touch 任务。
-已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_fc46a.vcxproj”(默认目标)的操作。
+  正在删除文件“cmTC_19fad.dir\Debug\cmTC_19fad.tlog\unsuccessfulbuild”。
+  正在对“cmTC_19fad.dir\Debug\cmTC_19fad.tlog\cmTC_19fad.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\jieji\Desktop\ccode\testViewer\build\CMakeFiles\CMakeTmp\cmTC_19fad.vcxproj”(默认目标)的操作。
 
 已成功生成。
     0 个警告
     0 个错误
 
-已用时间 00:00:00.58
+已用时间 00:00:00.57
 
 
     Feature record: CXX_FEATURE:1cxx_alias_templates

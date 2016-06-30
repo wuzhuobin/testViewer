@@ -12,7 +12,8 @@ MaximumWallThickness::MaximumWallThickness(vtkImageData * image, int internalEdg
 		edgePoints[num] = new std::list<EdgePoint>[extent[5] - extent[4] + 1];
 		centers[num] = new EdgePoint[extent[5] - extent[4] + 1];
 	}
-	
+
+
 	
 }
 
@@ -22,7 +23,6 @@ MaximumWallThickness::~MaximumWallThickness()
 		delete[] edgePoints[num];
 		delete[] centers[num];
 	}
-
 }
 
 bool MaximumWallThickness::valueTransform()
@@ -123,19 +123,21 @@ bool MaximumWallThickness::thicknessCal()
 {
 	using namespace std;
 
+
 	for (int num = 0; num < EDGENUM; num++) {
 
-		int* pointer;
-		
 		list<EdgePoint>* edgePointer = edgePoints[num];
 		EdgePoint* centersPointer = centers[num];
 
 		for (int k = extent[4]; k <= extent[5]; k++) {
+
+			edgePointer->clear();
+			
 			int centersX = 0;
 			int centersY = 0;
 			for (int j = extent[2]; j <= extent[3]; j++) {
 				for (int i = extent[0]; i <= extent[1]; i++) {
-					pointer = static_cast<int*>(edgeImage[num]->GetScalarPointer(i, j, k));
+					int* pointer = static_cast<int*>(edgeImage[num]->GetScalarPointer(i, j, k));
 					if (*pointer != image->GetScalarTypeMin()) {
 						EdgePoint e;
 						e.x = i;
@@ -147,7 +149,7 @@ bool MaximumWallThickness::thicknessCal()
 					
 				}
 			}
-			cout << "edgePointers number:" << edgePointer->size() << endl;
+			//cout << "edgePointers number:" << edgePointer->size() << endl;
 			EdgePoint e;
 			//if(edgePointer->size() != 0){
 				e.x = (double)centersX / edgePointer->size();
@@ -165,11 +167,12 @@ bool MaximumWallThickness::thicknessCal()
 	list<EdgePoint>* internalEdgePointer = edgePoints[0];
 	list<EdgePoint>* externalEdgePointer = edgePoints[1];
 	EdgePoint* internalCenterPointer = centers[0];
-	list<double> maximumWallThickness;
+
+	maximumWallThickness.clear();
 
 	
 	for (int k = extent[4]; k <= extent[5]; k++) {
-		//list<double> wallThickness;
+
 		list<pair<double, pair<EdgePoint, EdgePoint>>> wallThickness;
 		for (list<EdgePoint>::const_iterator internalEdgeIt = internalEdgePointer->cbegin(); 
 			internalEdgeIt != internalEdgePointer->cend(); ++internalEdgeIt) {
@@ -198,30 +201,51 @@ bool MaximumWallThickness::thicknessCal()
 					temp = pow((internalEdgeIt->x - distancePLIt->second.x), 2);
 					temp += pow((internalEdgeIt->y - distancePLIt->second.y), 2);
 					temp = sqrt(temp);
-					//wallThickness.push_back(temp);
-					pair<EdgePoint, EdgePoint> p; p.first = *internalEdgeIt; p.second = distancePLIt->second;
-					pair<double, pair<EdgePoint, EdgePoint>> p1; p1.first = temp; p1.second = p;
+					pair<double, pair<EdgePoint, EdgePoint>> p1(temp,
+						pair<EdgePoint, EdgePoint>(*internalEdgeIt, distancePLIt->second));
+					//pair<EdgePoint, EdgePoint> p;
+					//p.first = *internalEdgeIt;
+					//p.second = distancePLIt->second;
+					//pair<double, pair<EdgePoint, EdgePoint>> p1;
+					//p1.first = temp;
+					//p1.second = p;
 					wallThickness.push_back(p1);
 					break;
 				}
 			}
 		}	
 		wallThickness.sort();
-		maximumWallThickness.push_back(wallThickness.back().first);
+		maximumWallThickness.push_back(wallThickness.back());
 		
 
-		cout << "slice " << k << " " << wallThickness.back().first << endl;
-		cout << "internal" << wallThickness.back().second.first.x << '\t' << wallThickness.back().second.first.y << endl;
-		cout << "external" << wallThickness.back().second.second.x << '\t' << wallThickness.back().second.second.y << endl;
-
+		//cout << "slice " << k << " " << wallThickness.back().first << endl;
+		//cout << "internal" << wallThickness.back().second.first.x << '\t' << wallThickness.back().second.first.y << endl;
+		//cout << "external" << wallThickness.back().second.second.x << '\t' << wallThickness.back().second.second.y << endl;
+		wallThickness.clear();
 
 		++internalEdgePointer;
 		++externalEdgePointer;
 		++internalCenterPointer;
-
 	}
 
 
+
+	return true;
+}
+
+bool MaximumWallThickness::output()
+{
+	using namespace std;
+	int k = extent[4];
+	for (list<pair<double, pair<EdgePoint, EdgePoint>>>::const_iterator maximumWallThicknessIt = 
+		maximumWallThickness.cbegin(); maximumWallThicknessIt != maximumWallThickness.cend(); ++maximumWallThicknessIt) {
+		cout << "slice" << k++ << endl;
+		cout << "distance: " << maximumWallThicknessIt->first << endl;
+		cout << "internal: " << maximumWallThicknessIt->second.first.x << '\t' <<
+			maximumWallThicknessIt->second.first.y << endl;
+		cout << "external: " << maximumWallThicknessIt->second.second.x << '\t' <<
+			maximumWallThicknessIt->second.second.y << endl;
+	}
 
 	return true;
 }

@@ -18,7 +18,7 @@
 #include <iostream>
 
 
-
+class EdgePoint;
 class MaximumWallThickness
 {
 public:
@@ -33,6 +33,7 @@ public:
 	bool thresholdImage();
 	bool edgeDetection();
 	bool thicknessCal();
+	bool output();
 	bool setExtent(int* extent);
 	const int* getExtent();
 
@@ -44,23 +45,20 @@ public:
 
 	int edgeValue[EDGENUM];
 	int* extent;
-
-	//struct EdgePoint {
-	//	double x = 0;
-	//	double y = 0;
-	//};
-
-	class EdgePoint: public std::pair<double, double> {
-	public:
-		double x = this->first;
-		double y = this->second;
-
-	};
+	
 
 
-
+	std::list<std::pair<double, std::pair<EdgePoint, EdgePoint>>> maximumWallThickness;
 	EdgePoint* centers[EDGENUM];
 	std::list<EdgePoint>* edgePoints[EDGENUM];
+
+};
+
+class EdgePoint : public std::pair<double, double> {
+
+public:
+	double x = this->first;
+	double y = this->second;
 
 };
 
