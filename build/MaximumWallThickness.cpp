@@ -116,12 +116,6 @@ bool MaximumWallThickness::edgeDetection()
 
 	}
 
-	for (int k = extent[4]; k <= extent[5]; ++k) {
-		double kRL;
-		double bRL;
-
-
-	}
 	return true;
 }
 
@@ -153,7 +147,7 @@ bool MaximumWallThickness::thicknessCal()
 					
 				}
 			}
-			//cout << edgePointer->size()<<endl;
+			cout << "edgePointers number:" << edgePointer->size() << endl;
 			EdgePoint e;
 			//if(edgePointer->size() != 0){
 				e.x = (double)centersX / edgePointer->size();
@@ -164,26 +158,25 @@ bool MaximumWallThickness::thicknessCal()
 			++edgePointer;
 
 		}
-		//for (int k = extent[4]; k <= extent[5]; k++) {
-		//	cout << centersPointer->x<<'\n';
-		//	++centersPointer;
-		//}
 
 	}
+
 
 	list<EdgePoint>* internalEdgePointer = edgePoints[0];
 	list<EdgePoint>* externalEdgePointer = edgePoints[1];
 	EdgePoint* internalCenterPointer = centers[0];
 	list<double> maximumWallThickness;
+
 	
 	for (int k = extent[4]; k <= extent[5]; k++) {
-		list<EdgePoint>::const_iterator internalEdgeIt = internalEdgePointer->cbegin();
+		//list<double> wallThickness;
+		list<pair<double, pair<EdgePoint, EdgePoint>>> wallThickness;
 		for (list<EdgePoint>::const_iterator internalEdgeIt = internalEdgePointer->cbegin(); 
 			internalEdgeIt != internalEdgePointer->cend(); ++internalEdgeIt) {
 			double kRL = (internalEdgeIt->y - internalCenterPointer->y) / 
-				(internalEdgeIt->x - internalCenterPointer->y);
+				(internalEdgeIt->x - internalCenterPointer->x);
 			double bRL = (internalEdgeIt->x * internalCenterPointer->y - 
-				internalEdgeIt->y * internalCenterPointer->x) / (internalEdgeIt->x - internalCenterPointer->y);
+				internalEdgeIt->y * internalCenterPointer->x) / (internalEdgeIt->x - internalCenterPointer->x);
 			
 			list<pair<double, EdgePoint>> distancePL;
 			for (list<EdgePoint>::const_iterator externalEdgeIt = externalEdgePointer->cbegin();
@@ -196,9 +189,35 @@ bool MaximumWallThickness::thicknessCal()
 
 			}
 			distancePL.sort();
-			for(list<pair<double, EdgePoint>>::const_iterator)
-			
-		}
+
+			for (list<pair<double, EdgePoint>>::const_iterator distancePLIt = distancePL.cbegin();
+				distancePLIt != distancePL.cend();++distancePLIt) {
+				if ((internalEdgeIt->x > internalCenterPointer->x) == (distancePLIt->second.x > internalCenterPointer->x) &&
+					(internalEdgeIt->y > internalCenterPointer->y) == (distancePLIt->second.y > internalCenterPointer->y)) {
+					double temp;
+					temp = pow((internalEdgeIt->x - distancePLIt->second.x), 2);
+					temp += pow((internalEdgeIt->y - distancePLIt->second.y), 2);
+					temp = sqrt(temp);
+					//wallThickness.push_back(temp);
+					pair<EdgePoint, EdgePoint> p; p.first = *internalEdgeIt; p.second = distancePLIt->second;
+					pair<double, pair<EdgePoint, EdgePoint>> p1; p1.first = temp; p1.second = p;
+					wallThickness.push_back(p1);
+					break;
+				}
+			}
+		}	
+		wallThickness.sort();
+		maximumWallThickness.push_back(wallThickness.back().first);
+		
+
+		cout << "slice " << k << " " << wallThickness.back().first << endl;
+		cout << "internal" << wallThickness.back().second.first.x << '\t' << wallThickness.back().second.first.y << endl;
+		cout << "external" << wallThickness.back().second.second.x << '\t' << wallThickness.back().second.second.y << endl;
+
+
+		++internalEdgePointer;
+		++externalEdgePointer;
+		++internalCenterPointer;
 
 	}
 

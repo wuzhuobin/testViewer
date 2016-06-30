@@ -45,10 +45,18 @@ public:
 	int edgeValue[EDGENUM];
 	int* extent;
 
-	struct EdgePoint {
-		double x = 0;
-		double y = 0;
+	//struct EdgePoint {
+	//	double x = 0;
+	//	double y = 0;
+	//};
+
+	class EdgePoint: public std::pair<double, double> {
+	public:
+		double x = this->first;
+		double y = this->second;
+
 	};
+
 
 
 	EdgePoint* centers[EDGENUM];

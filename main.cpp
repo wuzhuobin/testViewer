@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 		if (w.setFileName(argv[1])) {
 			w.show();
 			MaximumWallThickness m(w.loadNIFTIFile());
-			int extent[6] = {255,511,127,383,0,55};
+			int extent[6] = {255,511,127,383,22,25};
 			m.setExtent(extent);
 			m.valueTransform();
 			m.extractVOI();
