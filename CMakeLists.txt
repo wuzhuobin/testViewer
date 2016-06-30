@@ -47,10 +47,12 @@ set(QT_QRC
 )
 
 set(HEAD 
+	MaximumWallThickness.h
 	myVtkInteractorStyleImage.h
 )
 
 set(SRC
+	MaximumWallThickness.cpp
 	myVtkInteractorStyleImage.cpp
 	main.cpp
 )

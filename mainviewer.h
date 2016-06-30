@@ -18,7 +18,6 @@
 #include <vtkRenderer.h>
 
 
-#include "vtkProcessor.h"
 #include "myVtkInteractorStyleImage.h"
 #include "ui_mainviewer.h"
 
