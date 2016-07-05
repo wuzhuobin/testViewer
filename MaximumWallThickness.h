@@ -11,6 +11,16 @@
 #include <vtkImageSobel2D.h>
 #include <vtkImageExtractComponents.h>
 #include <vtkImageMathematics.h>
+#include <vtkImageGaussianSmooth.h>
+#include <vtkImageGradient.h>
+#include <vtkImageMagnitude.h>
+#include <vtkImageNonMaximumSuppression.h>
+#include <vtkImageConstantPad.h>
+#include <vtkImageToStructuredPoints.h>
+#include <vtkLinkEdgels.h>
+#include <vtkGeometryFilter.h>
+#include <vtkSubPixelPositionEdgels.h>
+#include <vtkStripper.h>
 
 #include <utility>
 #include <math.h>

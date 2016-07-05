@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
 			m.thicknessCal();
 			m.output();
 
+
 			w.visualizeImage(m.edgeImage[1]);
 
 			return a.exec();
