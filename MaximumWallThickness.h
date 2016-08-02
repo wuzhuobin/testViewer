@@ -43,6 +43,7 @@ public:
 	bool thresholdImage();
 	bool edgeDetection();
 	bool thicknessCal();
+	bool thicknessCal2();
 	bool output();
 	bool setExtent(int* extent);
 	const int* getExtent();

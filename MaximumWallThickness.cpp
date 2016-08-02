@@ -320,6 +320,15 @@ bool MaximumWallThickness::thicknessCal()
 	return true;
 }
 
+bool MaximumWallThickness::thicknessCal2()
+{
+
+
+
+	
+	return true;
+}
+
 bool MaximumWallThickness::output()
 {
 	using namespace std;

@@ -15,17 +15,17 @@ int main(int argc, char *argv[])
 		if (w.setFileName(argv[1])) {
 			w.show();
 			MaximumWallThickness m(w.loadNIFTIFile());
-			int extent[6] = {255,511,127,383,22,50};
-			m.setExtent(extent);
-			m.valueTransform();
-			m.extractVOI();
-			m.thresholdImage();
-			m.edgeDetection();
-			m.thicknessCal();
-			m.output();
+			//int extent[6] = {255,511,127,383,22,50};
+			//m.setExtent(extent);
+			//m.valueTransform();
+			//m.extractVOI();
+			//m.thresholdImage();
+			//m.edgeDetection();
+			//m.thicknessCal();
+			//m.output();
 
 
-			w.visualizeImage(m.edgeImage[1]);
+			w.visualizeImage(m.image);
 
 			return a.exec();
 		}
