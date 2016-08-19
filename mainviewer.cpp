@@ -44,15 +44,14 @@ bool MainViewer::visualizeImage(vtkImageData* img)
 	if(fileName.isEmpty())	return false;
 		
 	viewer->SetInputData(img);
-	
+	double* range = img->GetScalarRange();
+	viewer->SetColorWindow(range[1] - range[0]);
+	viewer->SetColorLevel((range[1] + range[0]) * 0.5);
+
 	vtkSmartPointer<myVtkInteractorStyleImage> interactorStyle;
 	interactorStyle = vtkSmartPointer<myVtkInteractorStyleImage>::New();
 	interactorStyle->SetImageViewer(viewer);
 	
-	//vtkSmartPointer<vtkInteractorStyleImage> interactorStyle;
-	//interactorStyle = vtkSmartPointer<vtkInteractorStyleImage>::New();
-	//interactorStyle->SetInteractionModeToImageSlicing();
-
 	vtkSmartPointer<vtkRenderWindowInteractor> renderWindowInteractor;
 	renderWindowInteractor = vtkSmartPointer<vtkRenderWindowInteractor>::New();
 	viewer->SetupInteractor(renderWindowInteractor);
